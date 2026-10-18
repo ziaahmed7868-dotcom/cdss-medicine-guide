@@ -1,0 +1,479 @@
+Brand Name,Salt ID (Linked),Manufacturer / Company,Form,Stock Status,Rack Location
+Dolo 650,SALT_NSAID_01,Micro Labs,Tablet,,
+Calpol 650,SALT_NSAID_01,GlaxoSmithKline (GSK),Tablet,,
+Crocin 650 Advance,SALT_NSAID_01,GSK Consumer,Tablet,,
+Pacimol 650,SALT_NSAID_01,Ipca Laboratories,Tablet,,
+Paracip 650,SALT_NSAID_01,Cipla,Tablet,,
+P-650,SALT_NSAID_01,Apex Laboratories,Tablet,,
+Zerodol-P,SALT_NSAID_02,Ipca Laboratories,Tablet,,
+Hifenac-P,SALT_NSAID_02,Intas Pharmaceuticals,Tablet,,
+Aceclo Plus,SALT_NSAID_02,Aristo Pharmaceuticals,Tablet,,
+Dolokind-P,SALT_NSAID_02,Mankind Pharma,Tablet,,
+Acemiz Plus,SALT_NSAID_02,Lupin Ltd,Tablet,,
+Zerodol-SP,SALT_NSAID_03,Ipca Laboratories,Tablet,,
+Signoflam,SALT_NSAID_03,Lupin Ltd,Tablet,,
+Hifenac-D,SALT_NSAID_03,Intas Pharmaceuticals,Tablet,,
+Ibugesic ASP,SALT_NSAID_03,Cipla Ltd,Tablet,,
+Dolowin-SP,SALT_NSAID_03,Micro Labs,Tablet,,
+Brufen 400,SALT_NSAID_04,Abbott Healthcare,Tablet,,
+Ibugesic 400,SALT_NSAID_04,Cipla Ltd,Tablet,,
+Etogesic 400 / 600,SALT_NSAID_05,Zydus Healthcare,SR Tablet,,
+Etova 400,SALT_NSAID_05,Ipca Laboratories,Tablet,,
+Ketorol DT,SALT_NSAID_06,Dr. Reddy's Labs,Dispersible Tab,,
+Dolonex DT 20,SALT_NSAID_07,Pfizer Ltd,Dispersible Tab,,
+Fieldon 20,SALT_NSAID_07,Sun Pharma,Capsule,,
+Thioquest-A,SALT_NSAID_08,Mankind Pharma,Tablet,,
+Zerodol-TH 4 / 8,SALT_NSAID_08,Ipca Laboratories,Tablet,,
+Hifenac-TH,SALT_NSAID_08,Intas Pharmaceuticals,Tablet,,
+Chymoral Forte Plus,SALT_NSAID_09,Torrent Pharma,Tablet,,
+Enzomac Plus,SALT_NSAID_09,Macleods Pharma,Tablet,,
+Flexon MR,SALT_NSAID_10,Aristo Pharmaceuticals,Tablet,,
+Mobizox,SALT_NSAID_10,Sun Pharma,Tablet,,
+Myospaz,SALT_NSAID_10,Win-Medicare,Tablet,,
+Nise 100,SALT_NSAID_11,Dr. Reddy's Labs,Tablet,,
+Nicip 100,SALT_NSAID_11,Cipla Ltd,Tablet,,
+Nicip-P,SALT_NSAID_12,Cipla Ltd,Tablet,,
+Sumo,SALT_NSAID_12,Alkem Laboratories,Tablet,,
+Nise-MR,SALT_NSAID_12,Dr. Reddy's Labs,Tablet,,
+Lornoxi-P,SALT_NSAID_13,Micro Labs,Tablet,,
+Lornox-P,SALT_NSAID_13,Macleods Pharma,Tablet,,
+Drotikind-M,SALT_NSAID_14,Mankind Pharma,Tablet,,
+Drotaverin-M,SALT_NSAID_14,Aristo Pharmaceuticals,Tablet,,
+Calpol 250 Peadiatric,SALT_NSAID_15,GSK,Suspension,,
+Crocin 240 DS,SALT_NSAID_15,GSK,Suspension,,
+P-250 / P-120,SALT_NSAID_15,Apex Labs,Suspension,,
+Meftal-P 100 / 50,SALT_NSAID_16,Blue Cross Labs,Suspension,,
+Ibugesic Plus Syrup,SALT_NSAID_17,Cipla Ltd,Syrup,,
+Combiflam Suspension,SALT_NSAID_17,Sanofi India,Syrup,,
+Ecosprin 75 / 150,SALT_NSAID_18,USV Ltd,Tablet,,
+Delisprin 75,SALT_NSAID_18,Aristo Pharmaceuticals,Tablet,,
+Disprin 325,SALT_NSAID_19,Reckitt Benckiser,Dispersible Tab,,
+Saridon,SALT_NSAID_20,Piramal Healthcare,Tablet,,
+Volini Spray / Gel,SALT_NSAID_21,Sun Pharma,Gel / Spray,,
+Omnigel,SALT_NSAID_21,Cipla Ltd,Gel,,
+Moov Gel,SALT_NSAID_21,Reckitt Benckiser,Gel,,
+Lornox 4 / 8,SALT_NSAID_22,Macleods Pharma,Tablet,,
+Indocap 25,SALT_NSAID_23,Jagsonpal Pharmaceuticals,Capsule,,
+Calpol 500,SALT_NSAID_24,GlaxoSmithKline (GSK),Tablet,,
+Crocin 500,SALT_NSAID_24,GSK Consumer,Tablet,,
+Pacimol 500,SALT_NSAID_24,Ipca Laboratories,Tablet,,
+Paracip 500,SALT_NSAID_24,Cipla,Tablet,,
+Ultram / Ultracet,SALT_NSAID_25,Johnson & Johnson / Janssen,Tablet,,
+Calpol-T / Tramacet,SALT_NSAID_25,GSK / Dr. Reddy's,Tablet,,
+Tramazac 50,SALT_OPIOID_01,Zydus Healthcare,Capsule,,
+Ultram 50,SALT_OPIOID_01,Janssen / J&J,Tablet,,
+Contramal 50,SALT_OPIOID_01,Procter & Gamble (P&G),Capsule,,
+Domadol 50,SALT_OPIOID_01,Cipla Ltd,Capsule,,
+Contramal SR 100,SALT_OPIOID_02,P&G Health,SR Tablet,,
+Tramazac SR 100,SALT_OPIOID_02,Zydus Healthcare,SR Tablet,,
+Tydol 50 / 100,SALT_OPIOID_03,Lupin Ltd,Tablet,,
+Tapal 50 / 75,SALT_OPIOID_03,MSN Laboratories,Tablet,,
+Tapenax 50,SALT_OPIOID_03,Cipla Ltd,Tablet,,
+Morphin / MST Continus,SALT_OPIOID_04,Modi-Mundipharma,SR Tablet,,
+Rilmorph 10 / 20,SALT_OPIOID_04,Reliance Formulation,Tablet,,
+Bupron 0.2mg,SALT_OPIOID_05,Sun Pharma,Sublingual Tab,,
+Norspan Patch 5 / 10,SALT_OPIOID_05,Modi-Mundipharma,Transdermal Patch,,
+Codostar,SALT_OPIOID_06,Mankind Pharma,Tablet,,
+Linctus Codeine / Tylenol #3,SALT_OPIOID_06,GSK / Abbott,Tablet,,
+Ultracet,SALT_OPIOID_07,Janssen / J&J,Tablet,,
+Calpol-T,SALT_OPIOID_07,GSK,Tablet,,
+Tramazac-P,SALT_OPIOID_07,Zydus Healthcare,Tablet,,
+Dolopar-TB,SALT_OPIOID_07,Micro Labs,Tablet,,
+Spasmo-Proxyvon Plus,SALT_OPIOID_08,Wockhardt Ltd,Capsule,,
+Tramagesic-Spas,SALT_OPIOID_08,East India Pharma,Capsule,,
+Durogesic 25mcg / 50mcg,SALT_OPIOID_09,Janssen / J&J,Patch,,
+Fendrop Patch,SALT_OPIOID_09,Rusan Pharma,Patch,,
+Fortwin Injection / Tab,SALT_OPIOID_10,Sun Pharma / Ranbaxy,Injection/Tab,,
+Tidigesic Injection,SALT_OPIOID_11,Sun Pharma,Injection,,
+Buprenex Injection,SALT_OPIOID_11,Reckitt Benckiser,Injection,,
+FENT-CILL / Fentanyl Inj,SALT_OPIOID_12,Neon Laboratories / Cipla,Injection,,
+Methadone 5 / 10mg,SALT_OPIOID_13,Government / Specialised Supply,Tablet,,
+Oxycontin 10 / 20,SALT_OPIOID_14,Modi-Mundipharma,SR Tablet,,
+Prolong / Oxycodone,SALT_OPIOID_14,Sun Pharma / Abbott,Tablet,,
+Targin 5/2.5,SALT_OPIOID_15,Modi-Mundipharma,SR Tablet,,
+Omez 20,SALT_GI_01,Dr. Reddy's Labs,Capsule,,
+Omee 20,SALT_GI_01,Alkem Laboratories,Capsule,,
+Omez-D,SALT_GI_02,Dr. Reddy's Labs,Capsule,,
+Omee-D,SALT_GI_02,Alkem Laboratories,Capsule,,
+Pan 40,SALT_GI_03,Alkem Laboratories,Tablet,,
+Pantocid 40,SALT_GI_03,Sun Pharma,Tablet,,
+Pantodac 40,SALT_GI_03,Zydus Healthcare,Tablet,,
+Pan-D,SALT_GI_04,Alkem Laboratories,SR Capsule,,
+Pantocid-D SR,SALT_GI_04,Sun Pharma,SR Capsule,,
+Pantodac-D SR,SALT_GI_04,Zydus Healthcare,SR Capsule,,
+Pan-IT,SALT_GI_05,Alkem Laboratories,SR Capsule,,
+Pantocid-IT,SALT_GI_05,Sun Pharma,SR Capsule,,
+Rantac-R / Rabeloc 20,SALT_GI_06,Cadila / Torrent Pharma,Tablet,,
+Rabium 20,SALT_GI_06,Lupin Ltd,Tablet,,
+Rabeper-20,SALT_GI_06,Micro Labs,Tablet,,
+Rabeloc-RD,SALT_GI_07,Torrent Pharma,SR Capsule,,
+Rabium-D SR,SALT_GI_07,Lupin Ltd,SR Capsule,,
+Rabepraz-D,SALT_GI_07,Sun Pharma,SR Capsule,,
+Rabium-L,SALT_GI_08,Lupin Ltd,SR Capsule,,
+Rabeloc Plus,SALT_GI_08,Torrent Pharma,SR Capsule,,
+Nexpro 20 / 40,SALT_GI_09,Torrent Pharma,Tablet,,
+Esomac 40,SALT_GI_09,Cipla Ltd,Tablet,,
+Nexpro-RD 40,SALT_GI_10,Torrent Pharma,SR Capsule,,
+Esomac-D,SALT_GI_10,Cipla Ltd,SR Capsule,,
+Dexrab-10,SALT_GI_11,Macleods Pharma,Tablet,,
+Rantac 150 / 300,SALT_GI_12,JB Chemicals,Tablet,,
+Zinetac 150,SALT_GI_12,GSK,Tablet,,
+Famocid 20 / 40,SALT_GI_13,Sun Pharma,Tablet,,
+Gelusil MPS Liquid,SALT_GI_14,Pfizer Ltd,Syrup / Tab,,
+Digene Liquid / Tab,SALT_GI_14,Abbott Healthcare,Syrup / Tab,,
+Mucaine Gel,SALT_GI_15,Pfizer Ltd,Syrup,,
+Sigmacaldrate,SALT_GI_15,Micro Labs,Syrup,,
+Gaviscon Liquid,SALT_GI_16,Reckitt Benckiser,Liquid,,
+Emeset 4mg / Syrup,SALT_GI_17,Cipla Ltd,Tab / Syrup,,
+Vomiway / Vomikind,SALT_GI_17,Mankind Pharma,Tab / Syrup,,
+Perinorm 10mg / Inj,SALT_GI_18,IPCA Laboratories,Tab / Inj,,
+Vomitrol / Motilium-M,SALT_GI_19,Janssen / GSK,Tablet,,
+Redotil 100 / Enuff,SALT_GI_20,Dr. Reddy's / Mankind,Capsule / Sachet,,
+Imodium 2mg,SALT_GI_21,Johnson & Johnson,Tablet,,
+Lopamide 2mg,SALT_GI_21,Micro Labs,Tablet,,
+Darolac / Econorm,SALT_GI_22,Aristo / Dr. Reddy's,Capsule / Sachet,,
+Enterogermina Spores,SALT_GI_22,Sanofi India,Liquid Vial,,
+Electral / Enerzal (ORS),SALT_GI_23,FDC Ltd / Proctor & Gamble,Sachet / Powder,,
+Pegule / Movicol,SALT_GI_24,Abbott Healthcare,Sachet,,
+Duphalac Solution,SALT_GI_25,Abbott Healthcare,Syrup,,
+Lactusoft Syrup,SALT_GI_25,Mankind Pharma,Syrup,,
+Cremaffin Liquid,SALT_GI_26,Abbott Healthcare,Syrup,,
+Consica / Laxopeg,SALT_GI_26,Torrent / Alkem,Syrup / Tab,,
+Isabgol / Naturolax,SALT_GI_27,Dabur / Lupin,Granules,,
+Aptizyme / Aristozyme,SALT_GI_28,Aristo Pharmaceuticals,Liquid / Capsule,,
+Pancreoflat,SALT_GI_29,Abbott Healthcare,Tablet,,
+Creon 10000 / 25000,SALT_GI_29,Abbott Healthcare,Capsule,,
+Udihep 300 / Ursocol,SALT_GI_30,Abbott / Sun Pharma,Tablet,,
+Liv.52 DS / Sylimarin,SALT_GI_31,The Himalaya Drug Co.,Tablet / Syrup,,
+Mesacol 400 / 800,SALT_GI_32,Sun Pharma,Tablet / Suppository,,
+Mesavant 1.2g,SALT_GI_32,Takeda / Abbott,Tablet,,
+Drotin 40 / 80,SALT_GI_33,Martin & Harris,Tablet,,
+Cetzine 10,SALT_RESP_01,GSK,Tablet,,
+Zyrtec 10,SALT_RESP_01,Dr. Reddy's / UCB,Tablet,,
+Xyzal 5,SALT_RESP_02,Dr. Reddy's / Lupin,Tablet,,
+Levocet 5,SALT_RESP_02,Cipla Ltd,Tablet,,
+Allegra 120 / 180,SALT_RESP_03,Sanofi India,Tablet,,
+Fexova 120,SALT_RESP_03,Sun Pharma,Tablet,,
+Claritin 10,SALT_RESP_04,Bayer,Tablet,,
+Bilast 20,SALT_RESP_05,Menarini India,Tablet,,
+Singular 10,SALT_RESP_06,MSD Pharmaceuticals,Tablet,,
+Montair 10,SALT_RESP_06,Cipla Ltd,Tablet,,
+Montek-LC,SALT_RESP_07,Sun Pharma,Tablet,,
+Telekast-L,SALT_RESP_07,Lupin Ltd,Tablet,,
+Benadryl DR Syrup,SALT_RESP_08,Johnson & Johnson,Syrup,,
+Ascoril-LS Syrup,SALT_RESP_09,Glenmark Pharmaceuticals,Syrup,,
+Alex Syrup,SALT_RESP_09,Glenmark Pharmaceuticals,Syrup,,
+Terbutaline + Bromhexine Syrup,SALT_RESP_10,Various / Cipla,Syrup,,
+Sinarest / Cheston Cold,SALT_RESP_11,Centaur / Cipla,Tablet,,
+Sumo Cold,SALT_RESP_11,Alkem Laboratories,Tablet,,
+Avil 25,SALT_RESP_12,Sanofi India,Tablet,,
+Mucinac 600 Effervescent,SALT_RESP_13,Cipla Ltd,Tablet / Granules,,
+Ascoril-D / Corex-DX,SALT_RESP_14,Glenmark / Pfizer,Syrup,,
+Asthalin 2 / 4,SALT_RESP_15,Cipla Ltd,Tablet,,
+Asthalin Inhaler,SALT_RESP_16,Cipla Ltd,MDI Inhaler,,
+Aerocort Inhaler,SALT_RESP_16,Cipla Ltd,MDI Inhaler,,
+Levolin 50 / 100 Inhaler,SALT_RESP_17,Cipla Ltd,Inhaler / Respules,,
+Budecort 100 / 200 Inhaler,SALT_RESP_18,Cipla Ltd,Inhaler / Respules,,
+Foracort 200 / 400 Inhaler,SALT_RESP_19,Cipla Ltd,Inhaler / Rotacap,,
+Budamate 200 / 400,SALT_RESP_19,Lupin Ltd,Inhaler / Rotacap,,
+Flutovac 125 Inhaler,SALT_RESP_20,Micro Labs,Inhaler,,
+Seroflo 250 / 500 Inhaler,SALT_RESP_21,Cipla Ltd,Inhaler / Rotacap,,
+Combiflam / Foratec,SALT_RESP_22,Sun Pharma / Cipla,Inhaler,,
+Spiriva 9mcg / 18mcg,SALT_RESP_23,Boehringer Ingelheim,Respimat / Capsule,,
+Tiova Inhaler / Rotacap,SALT_RESP_23,Cipla Ltd,Inhaler / Rotacap,,
+Tiotropium + Formoterol Inhaler,SALT_RESP_24,Cipla / Lupin,Inhaler,,
+Deriphylline Tablet / Inj,SALT_RESP_25,Zydus Healthcare,Tab / Injection,,
+Doxofil 400 / Doxobid,SALT_RESP_26,Micro Labs / Mankind,Tablet,,
+Mucinac 600 Effervescent,SALT_RESP_27,Cipla Ltd,Tablet,,
+Mox 250 / 500,SALT_ANT_01,Sun Pharma,Capsule,Available,Schedule H1 Cabinet
+Novamox 500,SALT_ANT_01,Cipla Ltd,Capsule,Available,Schedule H1 Cabinet
+Augmentin 625 Duo,SALT_ANT_02,GlaxoSmithKline (GSK),Tablet,Available,Schedule H1 Cabinet
+Moxikind-CV 625,SALT_ANT_02,Mankind Pharma,Tablet,Available,Schedule H1 Cabinet
+Clavam 625,SALT_ANT_02,Alkem Laboratories,Tablet,Available,Schedule H1 Cabinet
+Augmentin DDS Dry Syrup,SALT_ANT_03,GSK,Dry Syrup,Available,Schedule H1 Cabinet
+Clavam Dry Syrup,SALT_ANT_03,Alkem Laboratories,Dry Syrup,Available,Schedule H1 Cabinet
+Ampoxin 250 / 500,SALT_ANT_04,Unichem Laboratories,Capsule / Inj,Available,Schedule H1 Cabinet
+Taxim-O 200,SALT_ANT_05,Alkem Laboratories,Tablet / Syrup,Available,Schedule H1 Cabinet
+Cefolac 200,SALT_ANT_05,Macleods Pharma,Tablet,Available,Schedule H1 Cabinet
+Zifi-O / Cefix-O,SALT_ANT_06,FDC Ltd / Mankind,Tablet,Available,Schedule H1 Cabinet
+Cepodem 200,SALT_ANT_07,Sun Pharma,Tablet / Syrup,Available,Schedule H1 Cabinet
+Podowin 200,SALT_ANT_07,Micro Labs,Tablet,Available,Schedule H1 Cabinet
+Zinnat 250 / 500,SALT_ANT_08,GSK,Tablet,Available,Schedule H1 Cabinet
+Supacef 500,SALT_ANT_08,GlaxoSmithKline,Tablet,Available,Schedule H1 Cabinet
+Monocef 1g Injection,SALT_ANT_09,Aristo Pharmaceuticals,Injection,Available,Cold Storage / H1
+Oframax 1g Injection,SALT_ANT_09,Sun Pharma,Injection,Available,Cold Storage / H1
+Monocef-SB 1.5g,SALT_ANT_10,Aristo Pharmaceuticals,Injection,Available,Cold Storage / H1
+Ciplox 500,SALT_ANT_11,Cipla Ltd,Tablet,Available,Schedule H1 Cabinet
+Zoxan 500,SALT_ANT_11,Dr. Reddy's Labs,Tablet,Available,Schedule H1 Cabinet
+Oflox 200 / 400,SALT_ANT_12,Cipla Ltd,Tablet,Available,Schedule H1 Cabinet
+Levo 500 / Glevo,SALT_ANT_13,Dr. Reddy's / Glenmark,Tablet,Available,Schedule H1 Cabinet
+Avelox 400 / Moxicip,SALT_ANT_14,Bayer / Cipla,Tablet,Available,Schedule H1 Cabinet
+Azithral 250 / 500,SALT_ANT_15,Alembic Pharmaceuticals,Tablet,Available,Schedule H1 Cabinet
+Azee 500,SALT_ANT_15,Cipla Ltd,Tablet,Available,Schedule H1 Cabinet
+Clarithro 500,SALT_ANT_16,Abbott Healthcare,Tablet,Available,Schedule H1 Cabinet
+Roxid 150 / 300,SALT_ANT_17,Sanofi India,Tablet,Available,Schedule H1 Cabinet
+Doxy-1 LB / Doxicip 100,SALT_ANT_18,Cipla Ltd,Capsule,Available,Schedule H1 Cabinet
+Minolest 50 / 100,SALT_ANT_19,Sun Pharma,Tablet,Available,Schedule H1 Cabinet
+Flagyl 200 / 400,SALT_ANT_20,Abbott Healthcare,Tablet,Available,Schedule H1 Cabinet
+Metrogyl 400,SALT_ANT_20,J.B. Chemicals,Tablet / Infusion,Available,Schedule H1 Cabinet
+Ornida 500,SALT_ANT_21,Mankind Pharma,Tablet,Available,Schedule H1 Cabinet
+Secnil 1g / 2g,SALT_ANT_22,Sun Pharma,Tablet,Available,Schedule H1 Cabinet
+Urimac 100 / Niftas 100,SALT_ANT_23,Macleods Pharma,Tablet,Available,Schedule H1 Cabinet
+Forcan 150,SALT_ANT_24,Cipla Ltd,Tablet,Available,Rack AB-7
+Zocon 150,SALT_ANT_24,FDC Ltd,Tablet,Available,Rack AB-7
+Itaspor 100 / Canditral 200,SALT_ANT_25,Glenmark / Mankind,Capsule,Available,Rack AB-7
+Lizolid 600,SALT_ANT_26,Glenmark Pharmaceuticals,Tablet,Available,Schedule H1 Cabinet
+Vancocin 500mg Injection,SALT_ANT_27,Abbott / Eli Lilly,Injection,Available,Cold Storage / H1
+Telma 40 / 80,SALT_CVS_01,Glenmark Pharmaceuticals,Tablet,Available,Rack CVS-1
+Tarmac 40,SALT_CVS_01,Sun Pharma,Tablet,Available,Rack CVS-1
+Telma-AM,SALT_CVS_02,Glenmark Pharmaceuticals,Tablet,Available,Rack CVS-1
+Taaz-AM,SALT_CVS_02,Mankind Pharma,Tablet,Available,Rack CVS-1
+Telma-H,SALT_CVS_03,Glenmark Pharmaceuticals,Tablet,Available,Rack CVS-1
+Losar 50 / 100,SALT_CVS_04,Torrent Pharmaceuticals,Tablet,Available,Rack CVS-2
+Repace 50,SALT_CVS_04,Cipla Ltd,Tablet,Available,Rack CVS-2
+Losar-H,SALT_CVS_05,Torrent Pharmaceuticals,Tablet,Available,Rack CVS-2
+Amlokind 5 / 10,SALT_CVS_06,Mankind Pharma,Tablet,Available,Rack CVS-3
+Stamlo 5,SALT_CVS_06,Dr. Reddy's Labs,Tablet,Available,Rack CVS-3
+Betaloc XR 25 / 50,SALT_CVS_07,AstraZeneca,ER Tablet,Available,Rack CVS-4
+Metolar XR 50,SALT_CVS_07,Cipla Ltd,ER Tablet,Available,Rack CVS-4
+Metolar 50,SALT_CVS_08,Cipla Ltd,Tablet,Available,Rack CVS-4
+Aten 50 / 100,SALT_CVS_09,Zydus Healthcare,Tablet,Available,Rack CVS-5
+Concor 2.5 / 5,SALT_CVS_10,Merck Ltd,Tablet,Available,Rack CVS-6
+Bisepro 5,SALT_CVS_10,Alkem Laboratories,Tablet,Available,Rack CVS-6
+Nebicard 2.5 / 5,SALT_CVS_11,Torrent Pharmaceuticals,Tablet,Available,Rack CVS-7
+Cardace 2.5 / 5 / 10,SALT_CVS_12,Sanofi India,Tablet,Available,Rack CVS-8
+RAMIPRES 5,SALT_CVS_12,Cipla Ltd,Tablet,Available,Rack CVS-8
+Enam 2.5 / 5,SALT_CVS_13,Dr. Reddy's Labs,Tablet,Available,Rack CVS-8
+Cilacar 10 / 20,SALT_CVS_14,J.B. Chemicals,Tablet,Available,Rack CVS-9
+Cilnicor 10,SALT_CVS_14,Torrent Pharmaceuticals,Tablet,Available,Rack CVS-9
+Atorva 10 / 20,SALT_CVS_15,Zydus Healthcare,Tablet,Available,Rack CVS-10
+Storvas 10 / 20,SALT_CVS_15,Sun Pharma,Tablet,Available,Rack CVS-10
+Rozavel 10 / 20,SALT_CVS_16,Sun Pharma,Tablet,Available,Rack CVS-10
+Rosuvas 10 / 20,SALT_CVS_16,Cipla Ltd,Tablet,Available,Rack CVS-10
+Atorva-ASP 75,SALT_CVS_17,Zydus Healthcare,Capsule / Tablet,Available,Rack CVS-11
+Storvas-ASP,SALT_CVS_17,Sun Pharma,Tablet,Available,Rack CVS-11
+Rozavel-ASP 10/75,SALT_CVS_18,Sun Pharma,Capsule / Tablet,Available,Rack CVS-11
+Rosuvas-ASP,SALT_CVS_18,Cipla Ltd,Tablet,Available,Rack CVS-11
+Rosuvas-CV 10/75,SALT_CVS_19,Cipla Ltd,Capsule / Tablet,Available,Rack CVS-11
+Ecosprin 75 / 150,SALT_CVS_20,USV Private Limited,Tablet,Available,Rack CVS-12
+Disprin 325,SALT_CVS_20,Reckitt Benckiser,Effervescent Tab,Available,Counter OTC
+Plavix 75,SALT_CVS_21,Sanofi India,Tablet,Available,Rack CVS-12
+Deplatt 75,SALT_CVS_21,Torrent Pharmaceuticals,Tablet,Available,Rack CVS-12
+Clopilet 75,SALT_CVS_21,Sun Pharma,Tablet,Available,Rack CVS-12
+Clopitab-A 75,SALT_CVS_22,Lupin Ltd,Tablet,Available,Rack CVS-12
+Deplatt-CV 10/75,SALT_CVS_23,Torrent Pharmaceuticals,Capsule,Available,Rack CVS-11
+Rosuvas-TR / Triple Pill,SALT_CVS_23,Cipla Ltd,Capsule,Available,Rack CVS-11
+Dytor 10 / 20,SALT_CVS_24,Cipla Ltd,Tablet,Available,Rack CVS-13
+Lasix 40,SALT_CVS_25,Sanofi India,Tablet / Inj,Available,Rack CVS-13
+Aldactone 25 / 50,SALT_CVS_26,Pfizer Ltd,Tablet,Available,Rack CVS-14
+Spiromide,SALT_CVS_26,RPG Life Sciences,Tablet,Available,Rack CVS-14
+Sorbitrate 5 / 10,SALT_CVS_27,Abbott Healthcare,Tablet / Sublingual,Available,Rack CVS-15
+Glycomet 500 / 850 / 1000,SALT_DM_01,USV Private Limited,Tablet,Available,Rack DM-1
+Gluformin 500,SALT_DM_01,Abbott Healthcare,Tablet,Available,Rack DM-1
+Amaryl 1 / 2 / 3,SALT_DM_02,Sanofi India,Tablet,Available,Rack DM-2
+Glimepiride 2,SALT_DM_02,Sun Pharma,Tablet,Available,Rack DM-2
+Amaryl-M 1mg / 500,SALT_DM_03,Sanofi India,Tablet,Available,Rack DM-3
+Glycomet-GP 1,SALT_DM_03,USV Private Limited,Tablet,Available,Rack DM-3
+Amaryl-M 2mg / 500,SALT_DM_04,Sanofi India,Tablet,Available,Rack DM-4
+Glycomet-GP 2,SALT_DM_04,USV Private Limited,Tablet,Available,Rack DM-4
+Diamicron XR 30 / 60,SALT_DM_05,Servier India,Tablet,Available,Rack DM-5
+Glycinorm-OD 60,SALT_DM_05,Ipca Laboratories,Tablet,Available,Rack DM-5
+Diamicron-MX 60 / 500,SALT_DM_06,Servier / USV,Tablet,Available,Rack DM-5
+Januvia 50 / 100,SALT_DM_07,MSD Pharmaceuticals,Tablet,Available,Rack DM-6
+Istavel 50 / 100,SALT_DM_07,Sun Pharma,Tablet,Available,Rack DM-6
+Janumet 50/500 / 50/1000,SALT_DM_08,MSD Pharmaceuticals,Tablet,Available,Rack DM-7
+Galvus 50,SALT_DM_09,Novartis India,Tablet,Available,Rack DM-8
+Zomelis 50,SALT_DM_09,Abbott Healthcare,Tablet,Available,Rack DM-8
+Galvus Met 50/500,SALT_DM_10,Novartis India,Tablet,Available,Rack DM-9
+Zomelis-Met 50/500,SALT_DM_10,Abbott Healthcare,Tablet,Available,Rack DM-9
+Forxiga 5 / 10,SALT_DM_11,AstraZeneca,Tablet,Available,Rack DM-10
+Oxra 10,SALT_DM_11,Sun Pharma,Tablet,Available,Rack DM-10
+Forxiga-M 10/500,SALT_DM_12,AstraZeneca,Tablet,Available,Rack DM-10
+Jardiance 10 / 25,SALT_DM_13,Boehringer Ingelheim / Eli Lilly,Tablet,Available,Rack DM-11
+Jardiance-Met 10/500,SALT_DM_14,Boehringer / Lilly,Tablet,Available,Rack DM-11
+Volix 0.2 / 0.3,SALT_DM_15,Ranbaxy / Sun Pharma,Tablet,Available,Rack DM-12
+Voglibose 0.2,SALT_DM_15,Cipla Ltd,Tablet,Available,Rack DM-12
+Volix-M 0.2/500,SALT_DM_16,Sun Pharma,Tablet,Available,Rack DM-12
+Megavog-M 0.2,SALT_DM_16,Mankind Pharma,Tablet,Available,Rack DM-12
+Tri-Gllycovance / Geminor M V,SALT_DM_17,Aristo / Macleods,Tablet,Available,Rack DM-12
+Pioz 15 / 30,SALT_DM_18,USV Private Limited,Tablet,Available,Rack DM-13
+Pioz-M 15/500,SALT_DM_19,USV Private Limited,Tablet,Available,Rack DM-13
+Lantus 100 IU/ml,SALT_DM_20,Sanofi India,Cartridge / Vial / Pen,Available,Refrigerator (Cold Chain)
+Basalog 100 IU/ml,SALT_DM_20,Biocon Ltd,Cartridge / Pen,Available,Refrigerator (Cold Chain)
+Novorapid 100 IU/ml,SALT_DM_21,Novo Nordisk,Cartridge / Pen,Available,Refrigerator (Cold Chain)
+Fiasp 100 IU/ml,SALT_DM_21,Novo Nordisk,Pen / Vial,Available,Refrigerator (Cold Chain)
+Human Actrapid 100 IU/ml,SALT_DM_22,Novo Nordisk,Vial / Pen,Available,Refrigerator (Cold Chain)
+Insugen-R 100 IU/ml,SALT_DM_22,Biocon Ltd,Vial,Available,Refrigerator (Cold Chain)
+Insugen-N 100 IU/ml,SALT_DM_23,Biocon Ltd,Vial / Cartridge,Available,Refrigerator (Cold Chain)
+Mixtard 30/70,SALT_DM_24,Novo Nordisk,Vial / Penfill,Available,Refrigerator (Cold Chain)
+Human Mixtard 30/70,SALT_DM_24,Novo Nordisk,Vial,Available,Refrigerator (Cold Chain)
+Tresiba 100 IU/ml,SALT_DM_25,Novo Nordisk,FlexTouch Pen,Available,Refrigerator (Cold Chain)
+Rivotril 0.25 / 0.5 / 2,SALT_CNS_01,Roche / Abbott,Tablet,Available,Schedule H1 Cabinet
+Lonazep 0.25 / 0.5,SALT_CNS_01,Sun Pharma,Tablet,Available,Schedule H1 Cabinet
+Alprax 0.25 / 0.5 / 1,SALT_CNS_02,Torrent Pharmaceuticals,Tablet,Available,Schedule H1 Cabinet
+Zolax 0.25 / 0.5,SALT_CNS_02,Micro Labs,Tablet,Available,Schedule H1 Cabinet
+Ativan 1 / 2,SALT_CNS_03,Pfizer Ltd,Tablet,Available,Schedule H1 Cabinet
+Lozep 2,SALT_CNS_03,Cipla Ltd,Tablet,Available,Schedule H1 Cabinet
+Valium 5 / 10,SALT_CNS_04,Abbott Healthcare,Tablet / Inj,Available,Schedule H1 Cabinet
+Calmpose 5 / 10,SALT_CNS_04,Ranbaxy / Sun Pharma,Tablet,Available,Schedule H1 Cabinet
+Etilaam 0.25 / 0.5 / 1,SALT_CNS_05,Intas Pharmaceuticals,Tablet,Available,Schedule H1 Cabinet
+ESITA 5 / 10 / 20,SALT_CNS_06,Sun Pharma,Tablet,Available,Rack CNS-1
+Nexito 5 / 10 / 20,SALT_CNS_06,Torrent Pharmaceuticals,Tablet,Available,Rack CNS-1
+Zotral 50 / 100,SALT_CNS_07,Intas Pharmaceuticals,Tablet,Available,Rack CNS-2
+Serta 50 / 100,SALT_CNS_07,Sun Pharma,Tablet,Available,Rack CNS-2
+Fludac 10 / 20,SALT_CNS_08,Torrent Pharmaceuticals,Capsule,Available,Rack CNS-3
+Prodep 10 / 20,SALT_CNS_08,Sun Pharma,Capsule,Available,Rack CNS-3
+Paxil CR / Paxidep CR,SALT_CNS_09,Sun Pharma,CR Tablet,Available,Rack CNS-4
+Uvox 50 / 100,SALT_CNS_10,Abbott Healthcare,Tablet,Available,Rack CNS-5
+Duzela 20 / 30 / 60,SALT_CNS_11,Sun Pharma,Capsule,Available,Rack CNS-6
+Symbal 20 / 30 / 60,SALT_CNS_11,Torrent Pharmaceuticals,Capsule,Available,Rack CNS-6
+Venlor XR 37.5 / 75,SALT_CNS_12,Sun Pharma,Capsule,Available,Rack CNS-7
+Tryptomer 10 / 25 / 50,SALT_CNS_13,Torrent Pharmaceuticals,Tablet,Available,Rack CNS-8
+Mirtaz 7.5 / 15 / 30,SALT_CNS_14,Sun Pharma,Tablet,Available,Rack CNS-9
+Lyrica 75 / 150,SALT_CNS_15,Pfizer Ltd,Capsule,Available,Schedule H1 Cabinet
+Maxgalin 75 / 150,SALT_CNS_15,Sun Pharma,Capsule,Available,Schedule H1 Cabinet
+Neurontin 100 / 300,SALT_CNS_16,Pfizer Ltd,Capsule,Available,Rack CNS-10
+Gabantin 300,SALT_CNS_16,Sun Pharma,Capsule,Available,Rack CNS-10
+Encorate Chrono 300 / 500,SALT_CNS_17,Sun Pharma,CR Tablet,Available,Rack CNS-11
+Valprol CR 500,SALT_CNS_17,Abbott Healthcare,CR Tablet,Available,Rack CNS-11
+Levepsy 250 / 500 / 750,SALT_CNS_18,Sun Pharma,Tablet,Available,Rack CNS-12
+Keppra 500 / 750,SALT_CNS_18,UCB India,Tablet,Available,Rack CNS-12
+Tegretol 200 / 400 CR,SALT_CNS_19,Novartis India,Tablet,Available,Rack CNS-13
+Zen Retard 200 / 400,SALT_CNS_19,Torrent Pharmaceuticals,Tablet,Available,Rack CNS-13
+Trileptal 150 / 300 / 600,SALT_CNS_20,Novartis India,Tablet,Available,Rack CNS-14
+Lithosun 300 / 450 SR,SALT_CNS_21,Sun Pharma,Tablet,Available,Rack CNS-15
+Oleanz 2.5 / 5 / 10,SALT_CNS_22,Sun Pharma,Tablet,Available,Rack CNS-16
+Zap 5 / 10,SALT_CNS_22,Torrent Pharmaceuticals,Tablet,Available,Rack CNS-16
+Rispond 1 / 2,SALT_CNS_23,Micro Labs,Tablet,Available,Rack CNS-17
+Risperdal 2,SALT_CNS_23,Janssen / J&J,Tablet,Available,Rack CNS-17
+Seroquel 50 / 100 / 200,SALT_CNS_24,AstraZeneca,Tablet,Available,Rack CNS-18
+Q-utan 50 / 100,SALT_CNS_24,Sun Pharma,Tablet,Available,Rack CNS-18
+Aриit 5 / 10 / 15 (Aripize),SALT_CNS_25,Torrent Pharmaceuticals,Tablet,Available,Rack CNS-19
+Stilnoct 6.25 / 10,SALT_CNS_26,Sanofi India,Tablet,Available,Schedule H1 Cabinet
+Zolfresh 10,SALT_CNS_26,Sun Pharma,Tablet,Available,Schedule H1 Cabinet
+Eltroxin 25 / 50 / 88 / 100,SALT_THY_01,GlaxoSmithKline (GSK),Tablet,Available,Rack THY-1
+Thyнор 25 / 50 / 75 / 100,SALT_THY_01,Abbott Healthcare,Tablet,Available,Rack THY-1
+Thyrox 50 / 88 / 100,SALT_THY_01,Mankind Pharma,Tablet,Available,Rack THY-1
+Neomercazole 5 / 10,SALT_THY_02,Abbott Healthcare,Tablet,Available,Rack THY-2
+Thyazol 5 / 10,SALT_THY_02,Sun Pharma,Tablet,Available,Rack THY-2
+Methimazole 5 / 10,SALT_THY_03,Various / Cipla,Tablet,Available,Rack THY-2
+PTU 50 (Propylthiouracil),SALT_THY_04,Abbott Healthcare,Tablet,Available,Rack THY-2
+Tertroxin 20mcg,SALT_THY_05,Aspen Pharma,Tablet,Available,Rack THY-3
+Dostinex 0.5,SALT_THY_06,Pfizer Ltd,Tablet,Available,Rack THY-4
+Caberlin 0.25 / 0.5,SALT_THY_06,Sun Pharma,Tablet,Available,Rack THY-4
+Proctinal / Parlodel 2.5,SALT_THY_07,Novartis India,Tablet,Available,Rack THY-5
+Danocrine 100 / 200,SALT_THY_08,Sanofi India,Capsule,Available,Rack THY-6
+Nizoral Cream / Shampoo,SALT_DERM_01,Janssen / Johnson & Johnson,Cream / Shampoo,Available,Rack DERM-1
+Ketoclean Shampoo,SALT_DERM_01,Cipla Ltd,Shampoo,Available,Rack DERM-1
+Zole-F Cream,SALT_DERM_02,Cipla Ltd,Cream,Available,Rack DERM-2
+Candid-B Cream,SALT_DERM_02,Glenmark Pharmaceuticals,Cream,Available,Rack DERM-2
+Lulifin Cream,SALT_DERM_03,Sun Pharma,Cream,Available,Rack DERM-3
+Lulifor Cream,SALT_DERM_03,Mankind Pharma,Cream,Available,Rack DERM-3
+Sebifin Cream,SALT_DERM_04,Sun Pharma,Cream,Available,Rack DERM-4
+Terbinafine 1% Cream,SALT_DERM_04,Cipla Ltd,Cream,Available,Rack DERM-4
+T-Bact Ointment,SALT_DERM_05,GlaxoSmithKline (GSK),Ointment,Available,Rack DERM-5
+Bactroban Ointment,SALT_DERM_05,GSK,Ointment,Available,Rack DERM-5
+Fucidin Cream,SALT_DERM_06,Abbott Healthcare,Cream,Available,Rack DERM-6
+Fudic Cream,SALT_DERM_06,Sun Pharma,Cream,Available,Rack DERM-6
+Clindac-A Gel,SALT_DERM_07,Sun Pharma,Gel,Available,Rack DERM-7
+Benzac AC 2.5% / 5%,SALT_DERM_08,Galderma India,Gel / Wash,Available,Rack DERM-8
+Deriva-CMS / Epiduo Gel,SALT_DERM_09,Glenmark / Galderma,Gel,Available,Rack DERM-9
+Tenovate Cream,SALT_DERM_10,GlaxoSmithKline (GSK),Cream,Available,Rack DERM-10
+Clobet-S Cream,SALT_DERM_10,Sun Pharma,Cream,Available,Rack DERM-10
+Flutivate Cream,SALT_DERM_11,GlaxoSmithKline (GSK),Cream,Available,Rack DERM-11
+Wysolone / Hydrocortisone 1%,SALT_DERM_12,Pfizer / Various,Cream,Available,Rack DERM-12
+Scabmite Cream,SALT_DERM_13,Abbott Healthcare,Cream,Available,Rack DERM-13
+Calamine Lotion,SALT_DERM_14,Piramal / Cipla,Lotion,Available,Counter OTC
+Veltam 0.4,SALT_URO_01,Intas Pharmaceuticals,Capsule,Available,Rack URO-1
+Urimax 0.4,SALT_URO_01,Cipla Ltd,Capsule,Available,Rack URO-1
+Silodal 4 / 8,SALT_URO_02,Sun Pharma,Capsule,Available,Rack URO-2
+Rapilif 4 / 8,SALT_URO_02,Torrent Pharmaceuticals,Capsule,Available,Rack URO-2
+Finast 5,SALT_URO_03,Dr. Reddy's Labs,Tablet,Available,Rack URO-3
+Ciplast 5,SALT_URO_03,Cipla Ltd,Tablet,Available,Rack URO-3
+Dutas 0.5,SALT_URO_04,Dr. Reddy's Labs,Capsule,Available,Rack URO-4
+Veltam-D / Duprost,SALT_URO_05,Intas / GSK,Capsule,Available,Rack URO-5
+Cital / Urikind 10mEq,SALT_URO_06,Wallace / Mankind,Syrup / Tablet,Available,Rack URO-6
+Alka-S / Citralka Liquid,SALT_URO_06,Pfizer / Abbott,Syrup,Available,Rack URO-6
+Vesicare 5 / 10,SALT_URO_07,Astellas Pharma,Tablet,Available,Rack URO-7
+Soliten 5 / 10,SALT_URO_07,Sun Pharma,Tablet,Available,Rack URO-8
+Betmiga 25 / 50,SALT_URO_08,Astellas Pharma,Tablet,Available,Rack URO-8
+Urispas 200,SALT_URO_09,Abbott Healthcare,Tablet,Available,Rack URO-9
+Cranberry Sachets / Syrup,SALT_URO_10,Various / Mankind,Sachet / Liquid,Available,Counter OTC
+Susten 100 / 200,SALT_GYN_01,Sun Pharma,Capsule / Gel,Available,Rack GYN-1
+Deviry / Uterogest 200,SALT_GYN_01,Pfizer / Abbott,Capsule,Available,Rack GYN-1
+Duphaston 10,SALT_GYN_02,Abbott Healthcare,Tablet,Available,Rack GYN-2
+Primolut-N 5,SALT_GYN_03,Bayer,Tablet,Available,Rack GYN-3
+Deviry 5 / 10,SALT_GYN_03,Torrent Pharmaceuticals,Tablet,Available,Rack GYN-3
+Mala-D / Ovral-G,SALT_GYN_04,Pfizer / Wyeth,Tablet,Available,Counter OTC / GYN
+Yaz / Yasmin,SALT_GYN_05,Bayer,Tablet,Available,Rack GYN-4
+I-Pill / Unwanted-72,SALT_GYN_06,Piramal / Mankind,Tablet,Available,Counter OTC
+MTP Kit / Mifeprestone-Misoprostol,SALT_GYN_07,Cipla / Sun Pharma,Kit,Available,Schedule H Secure Cabinet
+Fertomid 50,SALT_GYN_08,Cipla Ltd,Tablet,Available,Rack GYN-5
+Letroz 2.5,SALT_GYN_09,Sun Pharma,Tablet,Available,Rack GYN-6
+Orofer-XT / Autrin,SALT_GYN_10,Emcure / Pfizer,Tablet / Syrup,Available,Rack GYN-7
+Shelcal 500 / 750,SALT_GYN_11,Torrent Pharmaceuticals,Tablet,Available,Rack GYN-8
+Calpol 125 Drops / Syrup,SALT_PED_01,GlaxoSmithKline (GSK),Drops / Syrup,Available,Rack PED-1
+Dolo 125 Syrup / Drops,SALT_PED_01,Micro Labs,Drops / Syrup,Available,Rack PED-1
+Brufen Paediatric Syrup,SALT_PED_02,Abbott Healthcare,Suspension,Available,Rack PED-2
+Meftal-P Suspension,SALT_PED_03,Blue Cross Laboratories,Suspension,Available,Rack PED-3
+Domstal Drops / Suspension,SALT_PED_04,Torrent Pharmaceuticals,Drops / Syrup,Available,Rack PED-4
+Emeset Syrup / Drops,SALT_PED_05,Cipla Ltd,Syrup / Drops,Available,Rack PED-5
+Redotil / Enuff Kids Sachet,SALT_PED_06,Dr. Reddy's / Mankind,Sachet,Available,Rack PED-6
+Electral / Enerzal Powder,SALT_PED_07,FDC Ltd / P&G,Powder / Sachet,Available,Counter OTC
+Zincovit Syrup / Drops,SALT_PED_08,Apex Laboratories,Syrup / Drops,Available,Rack PED-7
+Augmentin DDS / Clavam DS,SALT_PED_09,GSK / Alkem,Dry Syrup,Available,Schedule H1 Cabinet
+Taxim-O Dry Syrup,SALT_PED_10,Alkem Laboratories,Dry Syrup,Available,Rack PED-8
+Azee 100/200 Suspension,SALT_PED_11,Cipla Ltd,Suspension,Available,Schedule H1 Cabinet
+Enterogermina Oral Vials,SALT_PED_12,Sanofi India,Liquid Mini Vials,Available,Rack PED-9
+BCG Vaccine Vial,SALT_PED_13,Serum Institute / BCG,Injection (Cold Chain),Available,Vaccine Refrigerator
+Engerix-B / Revac B,SALT_PED_14,GSK / Bharat Biotech,Vial / Prefilled Syringe,Available,Vaccine Refrigerator
+OPV / IPV (Polio),SALT_PED_15,Sanofi / Bio-Med,Vial / Drops,Available,Vaccine Refrigerator
+Pentavac PFS / Shan5,SALT_PED_16,Serum Institute / Sanofi,Prefilled Syringe,Available,Vaccine Refrigerator
+MMR-II / Tresivac,SALT_PED_17,Merck / Serum Institute,Vial with Diluent,Available,Vaccine Refrigerator
+Refresh Tears / Ecosame,SALT_OPHTH_01,Allergan / FDC Ltd,Eye Drops,Available,Rack EYE-1
+Optive 0.5%,SALT_OPHTH_01,Allergan India,Eye Drops,Available,Rack EYE-1
+Hyanne Eye Drops,SALT_OPHTH_02,Sun Pharma,Eye Drops,Available,Rack EYE-1
+Tobrex Eye Drops,SALT_OPHTH_03,Alcon / Novartis,Eye Drops,Available,Rack EYE-2
+Tobradex Eye Drops,SALT_OPHTH_04,Alcon / Novartis,Eye Drops,Available,Rack EYE-2
+Vigamox 0.5%,SALT_OPHTH_05,Alcon / Novartis,Eye Drops,Available,Rack EYE-3
+MoxiBlu 0.5%,SALT_OPHTH_05,Lupin Ltd,Eye Drops,Available,Rack EYE-3
+Vigadexa / Moxicip-P,SALT_OPHTH_06,Alcon / Cipla,Eye Drops,Available,Rack EYE-3
+Opat / Winolap 0.1%,SALT_OPHTH_07,Sun Pharma / Cipla,Eye Drops,Available,Rack EYE-4
+Timoptol 0.5%,SALT_OPHTH_08,FDC Ltd,Eye Drops,Available,Rack EYE-5
+Iotim 0.5%,SALT_OPHTH_08,Cipla Ltd,Eye Drops,Available,Rack EYE-5
+Lumigan 0.03%,SALT_OPHTH_09,Allergan India,Eye Drops,Available,Rack EYE-5
+Nasivion Adult / Mini Drops,SALT_ENT_01,Procter & Gamble (P&G),Nasal Drops / Spray,Available,Counter OTC / ENT
+Otrivin Adult / Paediatric,SALT_ENT_02,GlaxoSmithKline (GSK),Nasal Drops / Spray,Available,Counter OTC / ENT
+Flomist / Furomist Spray,SALT_ENT_03,Cipla Ltd / Sun Pharma,Nasal Spray,Available,Rack ENT-1
+Sinarest AF Nasal Drops,SALT_ENT_04,Centaur Pharmaceuticals,Nasal Drops,Available,Rack ENT-2
+Waxolve / Otorex Ear Drops,SALT_ENT_05,Micro Labs / FDC Ltd,Ear Drops,Available,Rack ENT-3
+Candid-TV / Otoclean Ear Drops,SALT_ENT_06,Glenmark / Cipla,Ear Drops,Available,Rack ENT-3
+Uprise-D3 60K,SALT_NUT_01,Sun Pharma,Softgel / Sachet,Available,Rack NUT-1
+Calcirol 60K,SALT_NUT_01,Cadila Pharmaceuticals,Sachet Granules,Available,Rack NUT-1
+D3-Must 60K,SALT_NUT_01,Mankind Pharma,Softgel Capsule,Available,Rack NUT-1
+D-360 Drops,SALT_NUT_02,Torrent Pharmaceuticals,Paediatric Drops,Available,Rack NUT-1
+Uprise-D3 Paediatric Drops,SALT_NUT_02,Sun Pharma,Paediatric Drops,Available,Rack NUT-1
+Nurokind-Gold / Neurobion Forte,SALT_NUT_03,Mankind / P&G Health,Capsule / Tablet,Available,Counter OTC / NUT
+Methylcobal 1500,SALT_NUT_03,Eisai / Lupin,Tablet,Available,Rack NUT-2
+Nurokind-OD,SALT_NUT_03,Mankind Pharma,Tablet,Available,Rack NUT-2
+CoQ 100 / Ubicar,SALT_NUT_04,Sun Pharma / Micro Labs,Capsule,Available,Rack NUT-3
+Q-Gold Capsule,SALT_NUT_04,Micro Labs,Capsule,Available,Rack NUT-3
+Carnisure 500 / 1000,SALT_NUT_05,Micro Labs,Tablet / Syrup,Available,Rack NUT-4
+L-Carnitene 500,SALT_NUT_05,Cipla Ltd,Tablet,Available,Rack NUT-4
+Shelcal 500,SALT_NUT_06,Torrent Pharmaceuticals,Tablet,Available,Rack NUT-5
+Cipcal 500,SALT_NUT_06,Cipla Ltd,Tablet,Available,Rack NUT-5
+Becosules Capsule / Syrup,SALT_NUT_07,Pfizer Ltd,Capsule / Syrup,Available,Counter OTC
+Zincovit Tablet / Syrup,SALT_NUT_07,Apex Laboratories,Tablet / Syrup,Available,Counter OTC
+Febutaz 40 / 80,SALT_SUPP_01,Sun Pharma,Tablet,Available,Rack SUPP-1
+Feburic 40 / 80,SALT_SUPP_01,Cipla Ltd,Tablet,Available,Rack SUPP-1
+Zyloric 100 / 300,SALT_SUPP_02,GlaxoSmithKline (GSK),Tablet,Available,Rack SUPP-2
+Ciprolic 100 / 300,SALT_SUPP_02,Cipla Ltd,Tablet,Available,Rack SUPP-2
+Neukine 300mcg Inj,SALT_SUPP_03,Intas Pharmaceuticals,Prefilled Syringe,Available,Cold Storage (2-8°C)
+Grafeel 300mcg Inj,SALT_SUPP_03,Dr. Reddy's Labs,Prefilled Syringe,Available,Cold Storage (2-8°C)
+Palno 0.25 Inj,SALT_SUPP_04,Glenmark Pharmaceuticals,Injection,Available,Cold Storage / Emergency
+EpiPen 0.3mg Auto-Injector,SALT_EMERG_01,Viatris / Mylan,Auto-Injector,Available,Emergency Cabinet
+Adrenaline Inj 1mg/ml,SALT_EMERG_01,Samarth Pharma,Injection,Available,Emergency Cabinet
+Atropine Inj 0.6mg,SALT_EMERG_02,Neon Laboratories,Injection,Available,Emergency Cabinet
+Bactigras Sterile Gauze (Mupirocin),SALT_EMERG_03,Smith & Nephew,Dressing Pad,Available,Counter OTC / Surgical
+Efcorlin 100mg Inj,SALT_EMERG_04,GlaxoSmithKline (GSK),Injection,Available,Emergency Cabinet
+Saxizon 100mg Inj,SALT_EMERG_04,Cadila Pharmaceuticals,Injection,Available,Emergency Cabinet
