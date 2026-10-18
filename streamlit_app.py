@@ -1,151 +1,179 @@
-import streamlit as st
 import pandas as pd
-import math
-from pathlib import Path
+import streamlit as st
 
-# Set the title and favicon that appear in the Browser's tab bar.
+# Page Configuration
 st.set_page_config(
-    page_title='GDP dashboard',
-    page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
+    page_title="Clinical Decision Support System (CDSS)",
+    page_icon="💊",
+    layout="wide",
 )
 
-# -----------------------------------------------------------------------------
-# Declare some useful functions.
-
-@st.cache_data
-def get_gdp_data():
-    """Grab GDP data from a CSV file.
-
-    This uses caching to avoid having to read the file every time. If we were
-    reading from an HTTP endpoint instead of a file, it's a good idea to set
-    a maximum age to the cache with the TTL argument: @st.cache_data(ttl='1d')
+# Custom Styling & Header Branding
+st.markdown(
     """
-
-    # Instead of a CSV on disk, you could read from an HTTP endpoint here too.
-    DATA_FILENAME = Path(__file__).parent/'data/gdp_data.csv'
-    raw_gdp_df = pd.read_csv(DATA_FILENAME)
-
-    MIN_YEAR = 1960
-    MAX_YEAR = 2022
-
-    # The data above has columns like:
-    # - Country Name
-    # - Country Code
-    # - [Stuff I don't care about]
-    # - GDP for 1960
-    # - GDP for 1961
-    # - GDP for 1962
-    # - ...
-    # - GDP for 2022
-    #
-    # ...but I want this instead:
-    # - Country Name
-    # - Country Code
-    # - Year
-    # - GDP
-    #
-    # So let's pivot all those year-columns into two: Year and GDP
-    gdp_df = raw_gdp_df.melt(
-        ['Country Code'],
-        [str(x) for x in range(MIN_YEAR, MAX_YEAR + 1)],
-        'Year',
-        'GDP',
-    )
-
-    # Convert years from string to integers
-    gdp_df['Year'] = pd.to_numeric(gdp_df['Year'])
-
-    return gdp_df
-
-gdp_df = get_gdp_data()
-
-# -----------------------------------------------------------------------------
-# Draw the actual page
-
-# Set the title that appears at the top of the page.
-'''
-# :earth_americas: GDP dashboard
-
-Browse GDP data from the [World Bank Open Data](https://data.worldbank.org/) website. As you'll
-notice, the data only goes to 2022 right now, and datapoints for certain years are often missing.
-But it's otherwise a great (and did I mention _free_?) source of data.
-'''
-
-# Add some spacing
-''
-''
-
-min_value = gdp_df['Year'].min()
-max_value = gdp_df['Year'].max()
-
-from_year, to_year = st.slider(
-    'Which years are you interested in?',
-    min_value=min_value,
-    max_value=max_value,
-    value=[min_value, max_value])
-
-countries = gdp_df['Country Code'].unique()
-
-if not len(countries):
-    st.warning("Select at least one country")
-
-selected_countries = st.multiselect(
-    'Which countries would you like to view?',
-    countries,
-    ['DEU', 'FRA', 'GBR', 'BRA', 'MEX', 'JPN'])
-
-''
-''
-''
-
-# Filter the data
-filtered_gdp_df = gdp_df[
-    (gdp_df['Country Code'].isin(selected_countries))
-    & (gdp_df['Year'] <= to_year)
-    & (from_year <= gdp_df['Year'])
-]
-
-st.header('GDP over time', divider='gray')
-
-''
-
-st.line_chart(
-    filtered_gdp_df,
-    x='Year',
-    y='GDP',
-    color='Country Code',
+    <style>
+    .main-header {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1E3A8A;
+    }
+    .sub-text {
+        color: #4B5563;
+        font-size: 14px;
+    }
+    </style>
+""",
+    unsafe_allow_html=True,
 )
 
-''
-''
+st.markdown(
+    '<p class="main-header">💊 VALLE DEL CIELO - Clinical Decision Support System</p>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<p class="sub-text">Automated Drug Regimen & Inventory Routing System</p>',
+    unsafe_allow_html=True,
+)
+st.markdown("---")
+
+# Load CSV Files
+@st.cache_data
+def load_data():
+  clinical_rules = pd.read_csv("Medicine_Guide_Master_Clinical_Rules.csv")
+  brand_inv = pd.read_csv("Medicine_Guide_Brand_Inventory.csv")
+  return clinical_rules, brand_inv
 
 
-first_year = gdp_df[gdp_df['Year'] == from_year]
-last_year = gdp_df[gdp_df['Year'] == to_year]
+clinical_rules, brand_inv = load_data()
 
-st.header(f'GDP in {to_year}', divider='gray')
+# Sidebar / Input Panel Layout
+st.sidebar.header("📝 Patient Consultation Input")
 
-''
+# Patient Age Input
+patient_age = st.sidebar.number_input(
+    "Patient Age (Years)", min_value=0, max_value=120, value=25
+)
 
-cols = st.columns(4)
+# Extract unique indications for multi-select tags
+all_indications = []
+for ind_list in clinical_rules["Primary Indication"].dropna():
+  for item in str(ind_list).split(","):
+    cleaned_item = item.strip()
+    if cleaned_item and cleaned_item not in all_indications:
+      all_indications.append(cleaned_item)
 
-for i, country in enumerate(selected_countries):
-    col = cols[i % len(cols)]
+selected_symptoms = st.sidebar.multiselect(
+    "Select Symptoms / Indications", options=all_indications
+)
 
-    with col:
-        first_gdp = first_year[first_year['Country Code'] == country]['GDP'].iat[0] / 1000000000
-        last_gdp = last_year[last_year['Country Code'] == country]['GDP'].iat[0] / 1000000000
+# Risk Factors Inputs
+st.sidebar.subheader("⚠️ Patient Risk Factors")
+pregnancy_status = st.sidebar.selectbox("Pregnancy Status", ["No", "Yes"])
+kidney_condition = st.sidebar.selectbox("Kidney Condition", ["Normal", "High Risk"])
+heart_condition = st.sidebar.selectbox("Heart Condition", ["Normal", "High Risk"])
 
-        if math.isnan(first_gdp):
-            growth = 'n/a'
-            delta_color = 'off'
-        else:
-            growth = f'{last_gdp / first_gdp:,.2f}x'
-            delta_color = 'normal'
+submit_btn = st.sidebar.button("Suggest Drug Regimen", type="primary")
 
-        st.metric(
-            label=f'{country} GDP',
-            value=f'{last_gdp:,.0f}B',
-            delta=growth,
-            delta_color=delta_color
+# Main Dashboard Layout
+if submit_btn:
+  if not selected_symptoms:
+    st.warning("Kripya kam se kam ek symptom select karein!")
+  else:
+    st.subheader("📋 Consultation & Regimen Results")
+
+    # Filter rules based on symptoms, age, and safety constraints
+    matched_rules = []
+    for index, row in clinical_rules.iterrows():
+      rule_indications = [
+          i.strip().lower() for i in str(row["Primary Indication"]).split(",")
+      ]
+
+      # Check if any selected symptom matches rule indications
+      match_found = any(
+          any(s.lower() in ri or ri in s.lower() for ri in rule_indications)
+          for s in selected_symptoms
+      )
+
+      if match_found:
+        passes_safety = True
+
+        # 1. Age Validation Check based on Min Age column
+        min_age_str = str(row.get("Min Age", "0"))
+        # Extract digits from string like '12 Years' or '18 Years'
+        min_age_val = 0
+        for part in min_age_str.split():
+          if part.isdigit():
+            min_age_val = int(part)
+            break
+
+        if patient_age < min_age_val:
+          passes_safety = False  # Patient is too young for this drug
+
+        # 2. Other Safety Filters
+        if pregnancy_status == "Yes" and "Safe" not in str(
+            row["Pregnancy Safety"]
+        ):
+          passes_safety = False
+        if kidney_condition == "High Risk" and "Contraindicated" in str(
+            row["Kidney Patient"]
+        ):
+          passes_safety = False
+        if heart_condition == "High Risk" and "Contraindicated" in str(
+            row["Heart Patient"]
+        ):
+          passes_safety = False
+
+        if passes_safety:
+          matched_rules.append(row)
+
+    if matched_rules:
+      result_df = pd.DataFrame(matched_rules)
+
+      for idx, rule in result_df.iterrows():
+        salt_id = rule["Salt ID"]
+        generic_comp = rule["Generic Composition"]
+        dosage = rule.get("Standard Dosage ", "Standard Adult Dosage")
+        min_age_req = rule.get("Min Age", "N/A")
+
+        # Fetch matching brands & rack info from Brand Inventory
+        matched_brands = brand_inv[brand_inv["Salt ID (Linked)"] == salt_id]
+
+        col1, col2 = st.columns([2, 1])
+
+        with col1:
+          st.success(f"**Recommended Salt:** {generic_comp}")
+          st.write(
+              f"**Standard Dosage:** {dosage if pd.notna(dosage) else 'As prescribed per clinical schedule'}"
+          )
+          st.write(f"**Minimum Age Requirement:** {min_age_req}")
+          st.write(f"**Side Effects:** {rule['Primary Side Effects']}")
+
+        with col2:
+          st.info("**Stock & Rack Location**")
+          if not matched_brands.empty:
+            for _, brand in matched_brands.iterrows():
+              brand_name = brand["Brand Name"]
+              rack = (
+                  brand["Rack Location"]
+                  if pd.notna(brand["Rack Location"])
+                  else "Rack-A1"
+              )
+              company = brand["Manufacturer / Company"]
+              st.markdown(
+                  f"* **{brand_name}** ({company})<br>📍 Location: **{rack}**",
+                  unsafe_allow_html=True,
+              )
+          else:
+            st.warning("No brand inventory linked.")
+        st.markdown("---")
+    else:
+        st.error(
+            "Koi bhi matching safe salt nahi mila jo di gayi age limit, risk"
+            " factors aur symptoms ke anusaar safe ho."
         )
+else:
+  st.info(
+      "Left sidebar se patient ki age, symptoms aur risk factors select karke"
+      " 'Suggest Drug Regimen' button par click karein."
+  )
+    
